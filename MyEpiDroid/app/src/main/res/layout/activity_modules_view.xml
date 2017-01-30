@@ -1,0 +1,25 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ModulesButton"
+    tools:context="com.example.caroline.myapplication.ModulesView">
+
+    <TextView
+        android:id="@+id/titre_page"
+        android:text="@string/modules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+        <ListView
+            android:id="@+id/ModulesList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titre_page">
+
+        </ListView>
+
+</RelativeLayout>

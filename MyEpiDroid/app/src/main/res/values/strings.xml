@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyEpiDroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_modules_inscription_view">ModulesInscriptionView</string>
+    <string name="title_activity_projects_inscription_view">ProjectsInscriptionView</string>
+    <string name="title_activity_messages_view">MessagesView</string>
+
+    <string name="TextLog">Login</string>
+    <string name="TextPass">Mot de passe</string>
+    <string name="TextLogButton">Connexion</string>
+    <string name="logo">logo-epitech</string>
+    <string name="deco">Deconnexion</string>
+    <string name="modules">Modules</string>
+    <string name="planning">Planning</string>
+    <string name="projets">Projets</string>
+    <string name="trombi">Trombi</string>
+    <string name="profile">Profil</string>
+    <string name="messages">Derniers messages</string>
+    <string name="tek1">Tek1</string>
+    <string name="tek2">Tek2</string>
+    <string name="tek3">Tek3</string>
+    <string name="city1">Bordeaux</string>
+    <string name="city2">Lille</string>
+    <string name="city3">Lyon</string>
+    <string name="city4">Marseille</string>
+    <string name="city5">Montpellier</string>
+    <string name="city6">Nancy</string>
+    <string name="city7">Nantes</string>
+    <string name="city8">Nice</string>
+    <string name="city9">Paris</string>
+    <string name="city10">Rennes</string>
+    <string name="city11">Strasbourg</string>
+    <string name="city12">Toulouse</string>
+    <string name="prev"><![CDATA[<]]></string>
+    <string name="next"><![CDATA[>]]></string>
+    <string name="moduleName">Nom du Module</string>
+    <string name="moduleStartDate">0000.00.00</string>
+    <string name="moduleEndDate">0000.00.00</string>
+    <string name="moduleStatus">status pas définit</string>
+    <string name="inscriptionButton">S\'inscrire</string>
+    <string name="desinscriptionButton">Se Desinscrire</string>
+    <string name="activityName">activityName</string>
+    <string name="activityStartDate">activityStartDate</string>
+    <string name="activityEndDate">activityEndDate</string>
+    <string name="salle">salle</string>
+    <string name="intervenant">intervenant</string>
+    <string name="projectName">Nom du Projet</string>
+    <string name="projects">Projets</string>
+    <string name="title">Titre</string>
+    <string name="content">Contenu</string>
+    <string name="date">Date</string>
+    <string name="validerToken">Valider Token</string>
+    <string name="nbPlaces">Places dispo</string>
+    <string name="grade">Grade</string>
+    <string name="credit">Crédit</string>
+    <string name="projectStartDate">0000.00.00</string>
+    <string name="projectEndDate">0000.00.00</string>
+    <string name="deadline">Deadline</string>
+    <string name="minprojet">Taille du groupe min</string>
+    <string name="maxprojet">Taille du groupe max</string>
+</resources>

@@ -1,0 +1,168 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.caroline.myapplication.ModulesView"
+    >
+
+    <Button
+        android:id="@+id/Modules_button"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/modules"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@color/fblack"
+        android:onClick="ModulesButton_OnClick" />
+
+    <Button
+        android:id="@+id/Planning_button"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/planning"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@color/fblack"
+        android:onClick="PlanningButton_OnClick" />
+
+    <Button
+        android:id="@+id/Projets_button"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/projets"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@color/fblack"
+        android:onClick="ProjetsButton_OnClick" />
+
+    <Button
+        android:id="@+id/Trombi_button"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/trombi"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@color/fblack"
+        android:onClick="TrombiButton_OnClick" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile"
+                android:textColor="@color/white"
+                android:background="@color/fblue"
+                android:textSize="18sp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/my_img"
+                    android:layout_gravity="right"
+                android:contentDescription="@string/profile" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="187dp">
+
+                    <TextView
+                        android:id="@+id/Login_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/TextLog" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Nom"
+                        android:id="@+id/Nom_textView" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Ville"
+                        android:id="@+id/Ville_textView" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Semestre"
+                        android:id="@+id/Semestre_textView" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Promotion"
+                        android:id="@+id/Promotion_textView" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Credit"
+                        android:id="@+id/Credit_textView" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Spice_textView" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Netsoul"
+                        android:id="@+id/Netsoul_textView" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red"
+                        android:id="@+id/Alert_textView" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewMessages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/messages"
+                android:textColor="@color/white"
+                android:background="@color/fblue"
+                android:textSize="18sp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/message_container"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
