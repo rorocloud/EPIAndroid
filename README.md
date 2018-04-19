@@ -1,5 +1,5 @@
 # EPIAndroid
-Application Android de connection à l'intranet Epitech (2016)
+Application Android de connexion à l'intranet Epitech (2016)
 
 
 ### Avertissement
